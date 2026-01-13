@@ -1,0 +1,47 @@
+.odinheader {
+    font-size: 16px;
+    background-color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto; /* Centers the div with 20px space top/bottom */
+    padding: 20px;     /* Changed from auto to 20px */
+    text-align: center;
+    width: 80%;        /* Added width so 'margin: auto' can center it */
+    border-radius: 8px;
+}
+
+.foods {
+    font-size: 16px;
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto; /* Centers the div */
+    padding: 20px;     /* Changed from auto to 20px */
+    width: 80%;        /* Added width */
+    border-radius: 8px;
+}
+.description, 
+.ingredients, 
+.steps {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.description h3, 
+.ingredients h3, 
+.steps h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.ingredients ul, 
+.steps ol {
+    padding-left: 20px;
+}
+
+.ingredients li, 
+.steps li {
+    margin-bottom: 10px;
+}
